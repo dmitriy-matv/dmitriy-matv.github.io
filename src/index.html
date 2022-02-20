@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <title>CV | Dmitriy Matviichuk</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <section class="left">
+        <header class="header">
+          <img src="<%=require('./avatar.jpg')%>" alt="Avatar" class="header__avatar">
+        </header>
+        <div class="left__content">
+          <div class="row__header">
+            <h1 class="header__name">Dmitriy Matviichuk</h1>
+            <span class="header__position">Full-stack developer</span>
+          </div>
+          <div class="row">
+            <h2 class="row__title">Contacts</h2>
+            <div class="row__content">
+              <a class="contact" href="tel:+380939119667">
+                <img class="contact__image" src="<%=require('./images/phone.svg')%>" />
+                <span class="contact__text">+380 93 911 96 67</span>
+              </a>
+              <a class="contact" href="mailto:dmitriy.matvv@gmail.com">
+                <img class="contact__image" src="<%=require('./images/mail.svg')%>" />
+                <span class="contact__text">dmitriy.matvv@gmail.com</span>
+              </a>
+              <div class="contacts__links">
+                <a href="https://github.com/dmitriy-matv" target="_blank" class="link__item">
+                  <img src="<%=require('./images/github.svg')%>" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/dmytro-matviichuk-291b47173/" target="_blank" class="link__item">
+                  <img src="<%=require('./images/linkedin.svg')%>" alt="">
+                </a>
+                <a href="https://t.me/dmitriy_matv" target="_blank" class="link__item">
+                  <img src="<%=require('./images/telegram.svg')%>" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h2 class="row__title">Tech skills</h2>
+            <div class="row__content">
+              <span class="list__item">HTML5</span>
+              <span class="list__item">CSS3</span>
+              <span class="list__item">JavaScript</span>
+              <span class="list__item">TypeScript</span>
+              <span class="list__item">React.Js</span>
+              <span class="list__item">Redux</span>
+              <span class="list__item">Python</span>
+              <span class="list__item">Flask</span>
+              <span class="list__item">FastApi</span>
+              <span class="list__item">GIT</span>
+              <span class="list__item">Docker</span>
+              <span class="list__item">Figma</span>
+
+            </div>
+          </div>
+          <div class="row">
+            <h2 class="row__title">Soft skills</h2>
+            <div class="row__content">
+              <span class="list__item">Analytical skills</span>
+              <span class="list__item">Responsibility</span>
+              <span class="list__item">Adaptability</span>
+              <span class="list__item">Attention to details</span>
+              <span class="list__item">Punctual</span>
+              <span class="list__item">Teamwork</span>
+              <span class="list__item">Humor</span>
+              <span class="list__item">Networking</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="right">
+        <div class="right__content">
+          <div class="row">
+            <h2 class="row__title">About me</h2>
+            <div class="row__content">
+              <p class="about__part">
+                Over 3 years experience as IT specialist with a wide range of responsibilities.
+              </p>
+              <p class="about__part">
+                Completed a number of different projects including design, markup, javascript module
+                upgrade/development, creating web application from scratch.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <h2 class="row__title">Projects</h2>
+            <div class="row__content">
+              <span class="project__item">1. <a href="https://www.claude.systems"
+                  target="_blank">https://www.claude.systems</a> [Typescript, React, Redux, AWS-Amplify, GraphQL,
+                Material-UI]</span>
+              <span class="project__item">2. <a href="https://samee.pro" target="_blank">https://samee.pro</a> [ReactJS,
+                TypeScript, Jest, Flask, REST Api,
+                Twilio]</span>
+              <span class="project__item">3. Chat Application [API, jQuery, CSS, HTML, JavaScript, Flask, Python, Amazon
+                DynamoDB, AWS Lambda]</span>
+            </div>
+          </div>
+          <div class="row">
+            <h2 class="row__title">Main work experience</h2>
+            <div class="row__content">
+              <div class="work">
+                <span class="work__position">2021 - up to now — <b>Full-stack Developer. Simple2B.</b></span>
+                <div class="work__responsibilities">
+                  <span class="list__item">Web interface development</span>
+                  <span class="list__item">Creating app’s with dashboards</span>
+                  <span class="list__item">API - fetching</span>
+                  <span class="list__item">REST API development (python)</span>
+                  <span class="list__item">Bug fixing / code refactoring</span>
+                  <span class="list__item">Code review</span>
+                </div>
+              </div>
+              <div class="work">
+                <span class="work__position">2021 — <b>Full-stack Developer. Freelance.</b></span>
+                <div class="work__responsibilities">
+                  <span class="list__item">Studying online in Codecademy.com [Front-End engineer]</span>
+                </div>
+              </div>
+              <div class="work">
+                <span class="work__position">2020-2021 — <b>JavaScript Developer. Melior Games.</b></span>
+                <div class="work__responsibilities">
+                  <span class="list__item">Developing new game features</span>
+                  <span class="list__item">Bug fixing</span>
+                  <span class="list__item">Code refactoring</span>
+                </div>
+              </div>
+              <div class="work">
+                <span class="work__position">2020 — <b>Grafic Design Specialist. Markline.</b></span>
+                <div class="work__responsibilities">
+                  <span class="list__item">Creating landing pages and advertising creatives</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <h2 class="row__title">Education</h2>
+            <div class="row__content">
+              <span class="education__item">
+                2013-2014 — <b>Engineer of management and service of systems. Zhytomyr Military Institute named after
+                  S.P. Korilov.</b>
+              </span>
+              <span class="education__item">
+                2009-2013 — <b>System engineer. National Aviation University.</b>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <img class="top__image" src="<%=require('./images/layout/top.svg')%>" />
+    <img class="middle__image" src="<%=require('./images/layout/middle.svg')%>" />
+    <img class="bottom__image" src="<%=require('./images/layout/bottom.svg')%>" />
+  </main>
+</body>
+
+</html>
